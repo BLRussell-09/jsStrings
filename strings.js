@@ -14,7 +14,6 @@ var rna = dna.replace(/T/, "U");
 
 console.log("RNA", rna);
 
-// if statements if(CONDITION HERE){RESULT IF CONDITION IS TRUE};
 // Challenge 4
 
  var animal = "ALLigator"
