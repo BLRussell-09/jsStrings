@@ -21,5 +21,12 @@ console.log("RNA", rna);
 // var animal = "rhino"
 
 if(animal.toLowerCase() === "alligator"){
-  console.log("small");
+  // console.log("small");
 }else {console.log("wide");}
+
+// 
+
+var yarn = "Text here"
+var domString = "<h4>" + yarn + "</h4>"
+var myDiv = document.getElementById('yarn-holder');
+myDiv.innerHTML = domString;
