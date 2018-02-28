@@ -34,7 +34,7 @@ myDiv.innerHTML = domString;
 // Challenge 4
 
 var str = "IBMWLOVEbmcatsbmw";
-var newStr = str.replace(/[BMWbmw]/gi, "").toLowerCase();
+var newStr = str.replace(/[bmw]/gi, "").toLowerCase();
 var cats = "<h1>" + newStr + "</h1>"
 var kittenDiv = document.getElementById('cat-holder');
 kittenDiv.innerHTML = cats;
