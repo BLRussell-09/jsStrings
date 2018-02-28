@@ -30,3 +30,10 @@ var yarn = "Text here"
 var domString = "<h4>" + yarn + "</h4>"
 var myDiv = document.getElementById('yarn-holder');
 myDiv.innerHTML = domString;
+
+// Challenge 4
+
+var str = "IBMWLOVEbmcatsbmw";
+var newStr = str.replace(/b|m|w/gi, "").toLowerCase();
+
+document.write("<h1>" + newStr + "</h1>");
